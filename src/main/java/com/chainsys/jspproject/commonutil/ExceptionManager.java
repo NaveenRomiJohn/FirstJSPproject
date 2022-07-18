@@ -1,4 +1,4 @@
-package com.chainsys.jspproject;
+package com.chainsys.jspproject.commonutil;
 
 public class ExceptionManager {
 	public static String handleException(Exception e,String source,String message) {

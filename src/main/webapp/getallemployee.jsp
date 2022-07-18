@@ -1,20 +1,33 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"
+	import="java.util.List,com.chainsys.jspproject.*,java.util.ArrayList,
+    com.chainsys.jspproject.pojo.Employee,com.chainsys.jspproject.dao.EmployeeDao"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Employee List</title>
 </head>
 <body>
-	<form action="/FirstJSPproject/Employees" method="get">
-		<center>
-			<div>
-				Do you want to view all Employees details: <input type=submit
-					name="input" value="yes"> <input type=submit name="input"
-					value="no">
-			</div>
-		</center>
-	</form>
+	<table>
+		<thead>
+		</thead>
+		<%
+		List<Employee> allEmployee = EmployeeDao.getAllEmployee();
+		for (Employee emp : allEmployee) {
+		%>
+		<tr>
+			<td><%=emp.getEmp_id()%></td>
+			<td><%=emp.getFirst_name()%></td>
+			<td><%=emp.getLast_name()%></td>
+			<td><%=emp.getEmail()%></td>
+			<td><%=emp.getHire_date()%></td>
+			<td><%=emp.getJob_id()%></td>
+			<td><%=emp.getSalary()%></td>
+		</tr>
+		<%
+		}
+		%>
+	</table>
 </body>
 </html>

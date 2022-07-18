@@ -1,4 +1,4 @@
-package com.chainsys.jspproject;
+package com.chainsys.jspproject.commonutil;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Calendar;
