@@ -7,13 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="Employees" method="get">
+	<form action="/FirstJSPproject/Employees" method="get">
 		<center>
 			<div>
-				Employee ID: <input type='text' name='id'><br>
-			</div>
-			<div>
-				<input type='submit' name='submit' value='GetEmployee'>
+				Do you want to view all Employees details: <input type=submit
+					name="input" value="yes"> <input type=submit name="input"
+					value="no">
 			</div>
 		</center>
 	</form>
