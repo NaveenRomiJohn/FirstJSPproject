@@ -2,8 +2,7 @@
 	pageEncoding="ISO-8859-1"
 	import="com.chainsys.jspproject.commonutil.*,
 	com.chainsys.jspproject.*,java.text.SimpleDateFormat,
-	java.text.ParseException,com.chainsys.jspproject.pojo.Employee,
-	com.chainsys.jspproject.dao.EmployeeDao"%>
+	java.text.ParseException,com.chainsys.jspproject.pojo.Employee,com.chainsys.jspproject.dao.EmployeeDao"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
 "http://www.w3.org/TR/html4/loose.dtd" >
 <html>

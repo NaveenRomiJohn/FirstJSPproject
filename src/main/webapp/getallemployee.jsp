@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"
-	import="java.util.List,com.chainsys.jspproject.*,java.util.ArrayList,
-    com.chainsys.jspproject.pojo.Employee,com.chainsys.jspproject.dao.EmployeeDao"%>
+	import="java.util.List,com.chainsys.jspproject.*,java.util.ArrayList,com.chainsys.jspproject.pojo.Employee,
+	com.chainsys.jspproject.dao.EmployeeDao"%>
 <!DOCTYPE html>
 <html>
 <head>
